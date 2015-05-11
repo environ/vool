@@ -13,6 +13,6 @@ vaarika seadistus
 	sudo cp power-monitor /etc/init.d/
 	sudo chmod a+x /etc/init.d/power-monitor
 	sudo update-rc.d power-monitor defaults
-
+ 
 	sudo nano /etc/init.d/power-monitor 
 	sudo /etc/init.d/power-monitor start
